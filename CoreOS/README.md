@@ -12,3 +12,10 @@
 # 导入
     
     导入CoreOS.ova文件即可
+    出现网络错误直接忽略，或者关闭再重启
+    
+# 安装web服务
+
+    i nginx && i php && i mysql && i redis
+    s nginx && s php && s mysql && s redis
+    
